@@ -2,12 +2,12 @@
 
 Contributing to the language server protocol by proposing extensions to it requires several contributions to be made:
 
-- propose the extension via an issue in this [repository](https://github.com/Microsoft/language-server-protocol). Try to get early feedback before spending to much effort implementing it.
+- propose the extension via an issue in this [repository](https://github.com/Microsoft/language-server-protocol). Try to get early feedback before spending too much effort implementing it.
 - as the [protocol](https://github.com/Microsoft/vscode-languageserver-node/blob/master/protocol/src/protocol.ts) itself request and notification additions need to be defined using [TypeScript](https://www.typescriptlang.org/).
 - a document describing the protocol extension must be written using [GitHub flavored Markdown](https://guides.github.com/features/mastering-markdown/). The document must follow the style of the [protocol](https://github.com/Microsoft/vscode-languageserver-node/blob/master/protocol/src/protocol.ts) document.
 - a reference implementation of the protocol for the [VSCode language client library](https://www.npmjs.com/package/vscode-languageclient) is desirable. It will simplify and speed up the review process. A reference implementation for the [VS Code language server library](https://www.npmjs.com/package/vscode-languageserver) is optional.
 
-The actual contributation can happen in two ways:
+The actual contribution can happen in two ways:
 
 * either as a pull request against this GitHub [repository](https://github.com/Microsoft/vscode-languageserver-node)
 * or as a standalone GitHub repository. In this case the extension can even be published as a standalone npm module and used by developers on an opt-in basis.
